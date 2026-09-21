@@ -74,12 +74,12 @@
                     @endif
                 </a>
 
-                <a href="{{ route('admin.jobs.index') }}" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl transition-colors {{ request()->routeIs('admin.jobs*') ? 'bg-amber-500 text-slate-950 font-bold shadow-md' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800' }}">
+                {{-- <a href="{{ route('admin.jobs.index') }}" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl transition-colors {{ request()->routeIs('admin.jobs*') ? 'bg-amber-500 text-slate-950 font-bold shadow-md' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800' }}">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     Job Postings (CRUD)
-                </a>
+                </a> --}}
 
-                <a href="{{ route('admin.applications.index') }}" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl transition-colors {{ request()->routeIs('admin.applications*') ? 'bg-amber-500 text-slate-950 font-bold shadow-md' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800' }}">
+                {{-- <a href="{{ route('admin.applications.index') }}" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl transition-colors {{ request()->routeIs('admin.applications*') ? 'bg-amber-500 text-slate-950 font-bold shadow-md' : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800' }}">
                     <div class="flex items-center gap-3">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Candidate Applications
@@ -88,7 +88,7 @@
                     @if($pendingApps > 0)
                         <span class="px-2 py-0.5 rounded-full text-[10px] bg-emerald-600 text-white font-bold">{{ $pendingApps }}</span>
                     @endif
-                </a>
+                </a> --}}
             </nav>
         </div>
 
@@ -112,12 +112,12 @@
     <!-- MAIN BODY -->
     <div class="flex-1 flex flex-col min-w-0">
         <!-- TOPBAR -->
-        <header class="h-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 transition-colors">
-            <div class="text-sm font-bold text-slate-900 dark:text-slate-200">
+        <header class="h-21 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 transition-colors">
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-200">
                 @yield('title', 'Admin Dashboard')
             </div>
 
-            <div class="flex items-center gap-4 text-xs">
+            <div class="flex items-center gap-4 text-md">
                 <!-- THEME TOGGLE BUTTON FOR ADMIN -->
                 <button type="button" 
                         @click="toggleTheme()" 
@@ -130,7 +130,7 @@
                     </template>
                 </button>
 
-                <span class="text-slate-500 dark:text-slate-400">Logged in: <strong class="text-amber-600 dark:text-amber-400">{{ auth()->user()->email ?? 'admin@anshivya.com' }}</strong></span>
+                <span class="text-slate-500 dark:text-slate-400"><strong class="text-amber-600 dark:text-amber-400">{{ auth()->user()->email ?? 'admin@anshivya.com' }}</strong></span>
             </div>
         </header>
 
@@ -148,7 +148,7 @@
         @endif
 
         <!-- CONTENT -->
-        <main class="flex-1 p-8 overflow-y-auto">
+        <main class="flex-1 p-8 overflow-y-auto bg-slate-50 dark:bg-slate-950 transition-colors">
             @yield('content')
         </main>
     </div>

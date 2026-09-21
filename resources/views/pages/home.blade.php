@@ -156,9 +156,9 @@
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Find opportunities built around your potential.</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-sm mb-8 leading-relaxed">Explore career opportunities and connect with relevant roles across Automobile, Real Estate, Construction, Infrastructure, Media, and Manufacturing sectors.</p>
                     </div>
-                    <a href="{{ route('jobs') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
+                    {{-- <a href="{{ route('jobs') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
                         View Job Openings &rarr;
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
