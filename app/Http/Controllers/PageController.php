@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\SiteInfo;
 use Illuminate\View\View;
 
 class PageController extends Controller
@@ -48,7 +49,9 @@ class PageController extends Controller
 
     public function contact(): View
     {
-        return view('pages.contact');
+        $siteInfo = SiteInfo::first();
+
+        return view('pages.contact', compact('siteInfo'));
     }
 
     public function privacy(): View
