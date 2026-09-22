@@ -87,6 +87,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         // Route::get('/applications/{id}', [ApplicationAdminController::class, 'show'])->name('applications.show');
         // Route::patch('/applications/{id}/status', [ApplicationAdminController::class, 'updateStatus'])->name('applications.status');
         // Route::get('/applications/{id}/download', [ApplicationAdminController::class, 'downloadResume'])->name('applications.download');
+        // Route::delete('/applications/{id}', [ApplicationAdminController::class, 'destroy'])->name('applications.destroy');
         // Site Info Settings
         Route::get('/site-info', [SiteInfoAdminController::class, 'edit'])->name('site-info.edit');
         Route::post('/site-info', [SiteInfoAdminController::class, 'update'])->name('site-info.update');

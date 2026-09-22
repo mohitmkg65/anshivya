@@ -22,7 +22,20 @@ test('public blade pages load successfully', function () {
     $this->get('/contact')->assertStatus(200);
 });
 
-test('contact enquiry saves to database', function () {
+use App\Mail\ContactEnquirySubmitted;
+use App\Models\SiteInfo;
+use Illuminate\Support\Facades\Mail;
+
+test('contact enquiry saves to database and sends email notification to admin email_1', function () {
+    Mail::fake();
+
+    SiteInfo::create([
+        'mobile_1' => '+91 81128 25288',
+        'email_1' => 'admin-test@anshivya.com',
+        'full_address' => 'Corporate Office, Ahmedabad',
+        'map_url' => 'https://maps.google.com/test',
+    ]);
+
     $response = $this->post('/contact', [
         'full_name' => 'Rahul Employer',
         'company_name' => 'Apex Manufacturing',
@@ -38,6 +51,11 @@ test('contact enquiry saves to database', function () {
         'work_email' => 'rahul@apex.com',
         'company_name' => 'Apex Manufacturing',
     ]);
+
+    Mail::assertSent(ContactEnquirySubmitted::class, function ($mail) {
+        return $mail->hasTo('admin-test@anshivya.com') &&
+               $mail->enquiry->company_name === 'Apex Manufacturing';
+    });
 });
 
 test('candidate application saves resume and application to database', function () {

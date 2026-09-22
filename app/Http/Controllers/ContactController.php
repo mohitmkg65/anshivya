@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactEnquirySubmitted;
 use App\Models\ContactEnquiry;
+use App\Models\SiteInfo;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -43,6 +46,22 @@ class ContactController extends Controller
         ]);
 
         Log::info('Anshivya Contact Enquiry Saved to DB', ['id' => $enquiry->id]);
+
+        // Send email to Admin on email_1 from Site Info
+        try {
+            $siteInfo = SiteInfo::first();
+            $adminEmail = $siteInfo?->email_1 ?? config('mail.from.address') ?? 'info@anshivya.com';
+            // dd($adminEmail);
+            if (!empty($adminEmail)) {
+                Mail::to($adminEmail)->send(new ContactEnquirySubmitted($enquiry));
+                Log::info('Anshivya Contact Enquiry Email Sent to Admin', ['email' => $adminEmail, 'enquiry_id' => $enquiry->id]);
+            }
+        } catch (\Throwable $e) {
+            Log::error('Failed to send contact enquiry email notification: ' . $e->getMessage(), [
+                'enquiry_id' => $enquiry->id,
+                'exception' => $e,
+            ]);
+        }
 
         if ($request->expectsJson()) {
             return response()->json([
