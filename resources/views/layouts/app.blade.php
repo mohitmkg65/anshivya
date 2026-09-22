@@ -218,7 +218,10 @@
 
     <!-- FLOATING WHATSAPP BUTTON -->
     <div class="fixed bottom-6 right-6 z-40">
-        <a href="https://wa.me/918112825288?text=Hello%20Anshivya%20Group,%20I%20would%20like%20to%20discuss%20our%20HR/Recruitment%20needs." 
+        @php
+            $waMobile = preg_replace('/[^0-9]/', '', $siteInfo->mobile_1 ?? '918112825288');
+        @endphp
+        <a href="https://wa.me/{{ $waMobile }}?text=Hello%20Anshivya%20Group,%20I%20would%20like%20to%20discuss%20our%20HR/Recruitment%20needs." 
            target="_blank" 
            rel="noopener noreferrer" 
            class="w-13 h-13 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 flex items-center justify-center shadow-2xl shadow-emerald-950/40 transition-all hover:scale-110 active:scale-95">
@@ -282,9 +285,40 @@
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Contact Us</h4>
                     <ul class="space-y-3 text-xs text-slate-600 dark:text-slate-400">
-                        <li>Email: info@anshivya.com | hr@anshivya.com</li>
-                        <li>Phone: +91 81128 25288 | +91 63071 80489</li>
-                        <li>Location: Ahmedabad, Gujarat, India</li>
+                        <li class="flex items-start gap-2">
+                            <span class="font-bold text-slate-800 dark:text-slate-200">Phone:</span>
+                            <span>
+                                <a href="tel:{{ str_replace(' ', '', $siteInfo->mobile_1 ?? '+918112825288') }}" class="hover:text-amber-500 transition-colors">
+                                    {{ $siteInfo->mobile_1 ?? '+91 81128 25288' }}
+                                </a>
+                                @if(!empty($siteInfo->mobile_2))
+                                    <span class="text-slate-400">|</span>
+                                    <a href="tel:{{ str_replace(' ', '', $siteInfo->mobile_2) }}" class="hover:text-amber-500 transition-colors">
+                                        {{ $siteInfo->mobile_2 }}
+                                    </a>
+                                @endif
+                            </span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="font-bold text-slate-800 dark:text-slate-200">Email:</span>
+                            <span>
+                                <a href="mailto:{{ $siteInfo->email_1 ?? 'info@anshivya.com' }}" class="hover:text-amber-500 transition-colors">
+                                    {{ $siteInfo->email_1 ?? 'info@anshivya.com' }}
+                                </a>
+                                @if(!empty($siteInfo->email_2))
+                                    <span class="text-slate-400">|</span>
+                                    <a href="mailto:{{ $siteInfo->email_2 }}" class="hover:text-amber-500 transition-colors">
+                                        {{ $siteInfo->email_2 }}
+                                    </a>
+                                @endif
+                            </span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="font-bold text-slate-800 dark:text-slate-200 shrink-0">Location:</span>
+                            <span class="leading-relaxed">
+                                {{ $siteInfo->full_address ?? 'Ahmedabad, Gujarat, India' }}
+                            </span>
+                        </li>
                     </ul>
                 </div>
             </div>
