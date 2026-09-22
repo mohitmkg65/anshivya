@@ -108,14 +108,51 @@
                 <p class="text-slate-600 dark:text-slate-400 text-sm">We partner with organizations to deliver practical recruitment, payroll management, and compliance systems without administrative complexity.</p>
             </div>
 
-            <div class="grid grid-cols-2 gap-6 w-full lg:w-auto">
+            <div x-data="{
+                    count1: 1,
+                    count2: 1,
+                    hasAnimated: false,
+                    init() {
+                        const observer = new IntersectionObserver((entries) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting && !this.hasAnimated) {
+                                    this.hasAnimated = true;
+                                    this.animateCounters();
+                                }
+                            });
+                        }, { threshold: 0.2 });
+                        observer.observe(this.$el);
+                    },
+                    animateCounters() {
+                        const duration = 1200;
+                        const startTime = performance.now();
+                        const step = (now) => {
+                            const progress = Math.min((now - startTime) / duration, 1);
+                            const ease = 1 - Math.pow(1 - progress, 3);
+                            this.count1 = Math.min(500, Math.floor(1 + (5 - 1) * ease));
+                            this.count2 = Math.min(400, Math.floor(1 + (400 - 1) * ease));
+                            if (progress < 1) {
+                                requestAnimationFrame(step);
+                            } else {
+                                this.count1 = 5;
+                                this.count2 = 400;
+                            }
+                        };
+                        requestAnimationFrame(step);
+                    }
+                }"
+                 class="grid grid-cols-2 gap-6 w-full lg:w-auto">
                 <div class="p-6 rounded-2xl glass-card flex flex-col justify-between">
-                    <div class="text-3xl sm:text-4xl font-black text-amber-600 dark:text-amber-400">5+</div>
+                    <div class="text-3xl sm:text-4xl font-black text-amber-600 dark:text-amber-400 font-mono tracking-tight flex items-center">
+                        <span x-text="count1">1</span><span>+</span>
+                    </div>
                     <div class="text-xs font-bold text-slate-900 dark:text-white uppercase mt-2">Years of Experience</div>
                     <div class="text-[11px] text-slate-500 dark:text-slate-400">Delivering workforce solutions</div>
                 </div>
                 <div class="p-6 rounded-2xl glass-card flex flex-col justify-between">
-                    <div class="text-3xl sm:text-4xl font-black text-amber-600 dark:text-amber-400">4+</div>
+                    <div class="text-3xl sm:text-4xl font-black text-amber-600 dark:text-amber-400 font-mono tracking-tight flex items-center">
+                        <span x-text="count2">1</span><span>+</span>
+                    </div>
                     <div class="text-xs font-bold text-slate-900 dark:text-white uppercase mt-2">Trusted Clients</div>
                     <div class="text-[11px] text-slate-500 dark:text-slate-400">Long-term business partners</div>
                 </div>
