@@ -134,7 +134,7 @@
 
                 <div class="pt-4 flex items-center gap-4">
                     <button type="submit" 
-                            class="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all">
+                            class="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-white font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all">
                         Save &amp; Update Site Info
                     </button>
                 </div>

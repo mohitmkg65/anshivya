@@ -313,8 +313,8 @@
                 
                 <!-- CHAIRMAN -->
                 <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
-                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
-                        <img src="/images/chairman.jpg" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                    <div class="w-56 h-80 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                        <img src="/images/shiv-muni-pal.png" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
                         <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Chairman</span>
@@ -325,7 +325,7 @@
 
                 <!-- FOUNDER & MANAGING DIRECTOR -->
                 <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
-                    <div class="w-56 h-56 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                    <div class="w-56 h-80 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
                         <img src="/images/shivam-pal.jpeg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
@@ -337,7 +337,7 @@
 
                 <!-- COO -->
                 <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
-                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                    <div class="w-56 h-80 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
                         <img src="/images/anjali-pal.jpeg" alt="Anjali Pal - Chief Operating Officer" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
@@ -349,8 +349,8 @@
 
                 <!-- FINANCE & ACCOUNTS HEAD -->
                 <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
-                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
-                        <img src="/images/compliance_head.jpg" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                    <div class="w-56 h-80 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                        <img src="/images/maya-pal.png" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
                         <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Finance &amp; Accounts Head</span>

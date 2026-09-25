@@ -56,7 +56,7 @@
                 <!-- 1. CHAIRMAN SHIV MUNI PAL -->
                 <div class="rounded-3xl glass-card p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 group">
                     <div class="w-32 h-32 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-2xl">
-                        <img src="/images/chairman.jpg" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                        <img src="/images/shiv-muni-pal.png" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div class="space-y-2 text-center sm:text-left">
                         <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Chairman</span>
@@ -98,7 +98,7 @@
                 <!-- 4. HEAD OF COMPLIANCE & PAYROLL MAYA PAL -->
                 <div class="rounded-3xl glass-card p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 group">
                     <div class="w-32 h-32 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-2xl">
-                        <img src="/images/compliance_head.jpg" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                        <img src="/images/maya-pal.png" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div class="space-y-2 text-center sm:text-left">
                         <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Finance &amp; Accounts Head</span>

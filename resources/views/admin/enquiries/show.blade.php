@@ -63,7 +63,7 @@
         </div>
 
         <div class="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800">
-            <a href="mailto:{{ $enquiry->work_email }}" class="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs uppercase tracking-wider transition-colors shadow-md">
+            <a href="mailto:{{ $enquiry->work_email }}" class="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-md">
                 Reply Via Email
             </a>
 
