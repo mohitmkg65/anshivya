@@ -10,7 +10,7 @@
         
         <form action="{{ route('admin.enquiries.index') }}" method="GET" class="flex items-center gap-2">
             <input type="text" name="search" value="{{ request('search') }}" placeholder="Search name, company, email..." class="px-3.5 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-amber-500 shadow-sm" />
-            <button type="submit" class="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-md transition-colors">Search</button>
+            <button type="submit" class="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-white font-bold text-xs shadow-md transition-colors">Search</button>
         </form>
     </div>
 

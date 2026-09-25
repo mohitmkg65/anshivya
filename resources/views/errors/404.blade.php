@@ -8,7 +8,7 @@
             <h1 class="text-6xl font-black text-amber-400">404</h1>
             <h2 class="text-2xl font-bold text-white">Page Not Found</h2>
             <p class="text-slate-400 text-sm">The page you are looking for does not exist or may have been moved.</p>
-            <a href="{{ route('home') }}" class="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold text-xs uppercase tracking-wider">
+            <a href="{{ route('home') }}" class="inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold text-xs uppercase tracking-wider">
                 Return to Homepage
             </a>
         </div>

@@ -35,7 +35,7 @@
                     </div>
 
                     <div class="flex items-end">
-                        <button type="submit" class="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs uppercase tracking-wider transition-colors shadow-md">
+                        <button type="submit" class="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-md">
                             Filter Jobs
                         </button>
                     </div>

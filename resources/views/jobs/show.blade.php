@@ -93,7 +93,7 @@
                         <textarea name="cover_message" rows="3" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-amber-500">{{ old('cover_message') }}</textarea>
                     </div>
 
-                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold text-xs uppercase tracking-wider hover:scale-[1.01] transition-all shadow-lg">
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold text-xs uppercase tracking-wider hover:scale-[1.01] transition-all shadow-lg">
                         Submit Application
                     </button>
                 </form>

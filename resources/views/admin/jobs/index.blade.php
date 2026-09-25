@@ -11,7 +11,7 @@
             <p class="text-xs text-slate-500 dark:text-slate-400">Manage active &amp; draft job vacancies published on the website.</p>
         </div>
 
-        <a href="{{ route('admin.jobs.create') }}" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all">
+        <a href="{{ route('admin.jobs.create') }}" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all">
             + Create New Job Posting
         </a>
     </div>

@@ -56,7 +56,7 @@
         @endif
 
         <div class="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800">
-            <a href="{{ route('admin.applications.download', $application->id) }}" class="px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs uppercase tracking-wider flex items-center gap-2 shadow-md transition-colors">
+            <a href="{{ route('admin.applications.download', $application->id) }}" class="px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-xs uppercase tracking-wider flex items-center gap-2 shadow-md transition-colors">
                 Download Resume File
             </a>
 
