@@ -35,7 +35,7 @@
                     </p>
 
                     <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                        <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 shadow-2xl shadow-orange-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all">
+                        <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-white shadow-2xl shadow-orange-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all">
                             Talk to Anshivya
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </a>
@@ -179,7 +179,7 @@
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Find the people who move your business forward.</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-sm mb-8 leading-relaxed">Your growth deserves people who fit — we make it happen. Access recruitment, payroll management, and compliance solutions designed around your operational requirements.</p>
                     </div>
-                    <a href="{{ route('contact') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 shadow-xl hover:scale-[1.01] transition-all">
+                    <a href="{{ route('contact') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-xl hover:scale-[1.01] transition-all">
                         Tell Us About Your Hiring Needs &rarr;
                     </a>
                 </div>
@@ -325,7 +325,7 @@
 
                 <!-- FOUNDER & MANAGING DIRECTOR -->
                 <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
-                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                    <div class="w-56 h-56 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
                         <img src="/images/shivam-pal.jpeg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
@@ -379,7 +379,7 @@
         <div class="max-w-3xl mx-auto px-4 space-y-6">
             <h2 class="text-4xl font-extrabold text-slate-900 dark:text-white">Let's Build Your Next Chapter Together.</h2>
             <p class="text-slate-600 dark:text-slate-300 text-base">Tell us what your business needs. Our team can help you find the right people and build more effective HR processes.</p>
-            <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold uppercase text-xs shadow-xl hover:scale-105 transition-all">
+            <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold uppercase text-xs shadow-xl hover:scale-105 transition-all">
                 Talk to Anshivya &rarr;
             </a>
         </div>

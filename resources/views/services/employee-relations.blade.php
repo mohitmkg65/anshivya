@@ -17,7 +17,7 @@
 
     <section class="py-24 bg-slate-50 dark:bg-slate-900/40 transition-colors">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold uppercase text-xs hover:scale-105 transition-all shadow-xl">
+            <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold uppercase text-xs hover:scale-105 transition-all shadow-xl">
                 Discuss Workplace Culture Needs
             </a>
         </div>

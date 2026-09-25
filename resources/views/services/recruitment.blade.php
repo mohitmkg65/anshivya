@@ -33,7 +33,7 @@
             </div>
 
             <div class="text-center pt-8">
-                <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold uppercase text-xs hover:scale-105 transition-all shadow-xl">
+                <a href="{{ route('contact') }}" class="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold uppercase text-xs hover:scale-105 transition-all shadow-xl">
                     Tell Us About Your Hiring Needs
                 </a>
             </div>

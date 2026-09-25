@@ -81,7 +81,7 @@
                             @error('message') <span class="text-red-500 dark:text-red-400 text-[11px] mt-1">{{ $message }}</span> @enderror
                         </div>
 
-                        <button type="submit" class="w-full py-4 rounded-xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 shadow-xl hover:scale-[1.01] transition-all">
+                        <button type="submit" class="w-full py-4 rounded-xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-xl hover:scale-[1.01] transition-all">
                             Submit Enquiry
                         </button>
                     </form>

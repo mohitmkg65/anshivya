@@ -60,7 +60,7 @@
                 <!-- LOGO -->
                 <a href="{{ route('home') }}" class="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
                     <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
-                        <span class="font-extrabold text-slate-950 text-xl tracking-tighter">A</span>
+                        <span class="font-extrabold text-white text-xl tracking-tighter">A</span>
                         <div class="absolute inset-0 rounded-xl border border-white/20"></div>
                     </div>
                     <div class="flex flex-col">
@@ -161,7 +161,7 @@
                         </template>
                     </button> --}}
 
-                    <a href="{{ route('contact') }}" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-slate-950 shadow-lg shadow-orange-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all">
+                    <a href="{{ route('contact') }}" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-white shadow-lg shadow-orange-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all">
                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                         Talk to an HR Expert
                     </a>
@@ -204,7 +204,7 @@
                 <button type="button" @click="toggleTheme()" class="w-full py-3 px-4 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center justify-center gap-2">
                     <span x-text="isDark ? 'Switch to Light Mode ☀️' : 'Switch to Dark Mode 🌙'"></span>
                 </button>
-                <a href="{{ route('contact') }}" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold text-center block text-sm tracking-wide uppercase">
+                <a href="{{ route('contact') }}" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold text-center block text-sm tracking-wide uppercase">
                     Talk to an HR Expert
                 </a>
             </div>
@@ -224,8 +224,8 @@
         <a href="https://wa.me/{{ $waMobile }}?text=Hello%20Anshivya%20Group,%20I%20would%20like%20to%20discuss%20our%20HR/Recruitment%20needs." 
            target="_blank" 
            rel="noopener noreferrer" 
-           class="w-13 h-13 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 flex items-center justify-center shadow-2xl shadow-emerald-950/40 transition-all hover:scale-110 active:scale-95">
-            <svg class="w-6 h-6 fill-slate-950" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2m.01 1.67c4.55 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.27-2.42 5.82a8.2 8.2 0 0 1-5.82 2.42c-1.46 0-2.9-.38-4.16-1.11l-.3-.18-3.09.81.82-3.01-.19-.31a8.21 8.21 0 0 1-1.26-4.39c0-4.54 3.69-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.15.17-.3.19-.55.06a6.88 6.88 0 0 1-2.03-1.25 7.6 7.6 0 0 1-1.41-1.75c-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31s-.88.86-.88 2.1 1.1 2.43 1.25 2.63c.15.2 2.16 3.3 5.23 4.63.73.32 1.3.51 1.74.65.73.23 1.39.2 1.92.12.59-.09 1.81-.74 2.07-1.46.25-.72.25-1.34.17-1.46-.08-.12-.24-.2-.49-.33z"/></svg>
+           class="w-13 h-13 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center shadow-2xl shadow-emerald-950/40 transition-all hover:scale-110 active:scale-95">
+            <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2m.01 1.67c4.55 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.27-2.42 5.82a8.2 8.2 0 0 1-5.82 2.42c-1.46 0-2.9-.38-4.16-1.11l-.3-.18-3.09.81.82-3.01-.19-.31a8.21 8.21 0 0 1-1.26-4.39c0-4.54 3.69-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.15.17-.3.19-.55.06a6.88 6.88 0 0 1-2.03-1.25 7.6 7.6 0 0 1-1.41-1.75c-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31s-.88.86-.88 2.1 1.1 2.43 1.25 2.63c.15.2 2.16 3.3 5.23 4.63.73.32 1.3.51 1.74.65.73.23 1.39.2 1.92.12.59-.09 1.81-.74 2.07-1.46.25-.72.25-1.34.17-1.46-.08-.12-.24-.2-.49-.33z"/></svg>
         </a>
     </div>
 
@@ -242,7 +242,7 @@
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Have a hiring or HR requirement?</h3>
                         <p class="text-slate-300 text-sm">Let's discuss how Anshivya can support your business with customized recruitment, payroll, and compliance execution.</p>
                     </div>
-                    <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 shadow-xl shadow-orange-950/40">
+                    <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-xl shadow-orange-950/40">
                         Start a Conversation
                     </a>
                 </div>
@@ -253,7 +253,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-200 dark:border-slate-900">
                 <div class="lg:col-span-2 space-y-4">
                     <a href="{{ route('home') }}" class="inline-flex items-center gap-3">
-                        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-slate-950 font-extrabold text-lg">A</div>
+                        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white font-extrabold text-lg">A</div>
                         <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight">ANSHIVYA <span class="text-xs text-amber-600 dark:text-amber-400 font-semibold px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/20">GROUP</span></span>
                     </a>
                     <p class="text-slate-600 dark:text-slate-400 text-sm">Empowering People. Accelerating Business. Building Futures.</p>
