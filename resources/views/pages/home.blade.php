@@ -312,8 +312,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 
                 <!-- CHAIRMAN -->
-                <div class="rounded-3xl glass-card p-6 space-y-4 text-center group">
-                    <div class="w-28 h-28 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
+                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
                         <img src="/images/chairman.jpg" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
@@ -324,9 +324,9 @@
                 </div>
 
                 <!-- FOUNDER & MANAGING DIRECTOR -->
-                <div class="rounded-3xl glass-card p-6 space-y-4 text-center group">
-                    <div class="w-28 h-28 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
-                        <img src="/images/founder.jpg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
+                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                        <img src="/images/shivam-pal.jpeg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
                         <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Founder &amp; MD</span>
@@ -336,26 +336,26 @@
                 </div>
 
                 <!-- COO -->
-                <div class="rounded-3xl glass-card p-6 space-y-4 text-center group">
-                    <div class="w-28 h-28 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
-                        <img src="/images/coo.jpg" alt="Ananya Sharma - Chief Operating Officer" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
+                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                        <img src="/images/anjali-pal.jpeg" alt="Anjali Pal - Chief Operating Officer" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
                         <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Chief Operating Officer</span>
-                        <h3 class="text-lg font-extrabold text-slate-900 dark:text-white mt-0.5">Ananya Sharma</h3>
+                        <h3 class="text-lg font-extrabold text-slate-900 dark:text-white mt-0.5">Anjali Pal</h3>
                         <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">Directing HR operations, client delivery, and recruitment team execution.</p>
                     </div>
                 </div>
 
-                <!-- HEAD OF COMPLIANCE & PAYROLL -->
-                <div class="rounded-3xl glass-card p-6 space-y-4 text-center group">
-                    <div class="w-28 h-28 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
-                        <img src="/images/compliance_head.jpg" alt="Vikram Mehta - Head of Compliance & Payroll" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                <!-- FINANCE & ACCOUNTS HEAD -->
+                <div class="rounded-3xl glass-card p-4 space-y-2 text-center group">
+                    <div class="w-50 rounded-2xl mx-auto overflow-hidden border-2 border-amber-500/40 shadow-xl">
+                        <img src="/images/compliance_head.jpg" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Head of Compliance</span>
-                        <h3 class="text-lg font-extrabold text-slate-900 dark:text-white mt-0.5">Vikram Mehta</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">Overseeing monthly payroll workflows, statutory audit alignment, and policies.</p>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Finance &amp; Accounts Head</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 dark:text-white mt-0.5">Maya Pal</h3>
+                        <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">Overseeing monthly accounting, statutory audit alignment and financial reporting.</p>
                     </div>
                 </div>
 

@@ -70,7 +70,7 @@
                 <!-- 2. FOUNDER & MANAGING DIRECTOR SHIVAM PAL -->
                 <div class="rounded-3xl glass-card p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 group">
                     <div class="w-32 h-32 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-2xl">
-                        <img src="/images/founder.jpg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                        <img src="/images/shivam-pal.jpeg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div class="space-y-2 text-center sm:text-left">
                         <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Founder &amp; Managing Director</span>
@@ -84,27 +84,27 @@
                 <!-- 3. CHIEF OPERATING OFFICER ANANYA SHARMA -->
                 <div class="rounded-3xl glass-card p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 group">
                     <div class="w-32 h-32 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-2xl">
-                        <img src="/images/coo.jpg" alt="Ananya Sharma - Chief Operating Officer" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                        <img src="/images/anjali-pal.jpeg" alt="Anjali Pal - Chief Operating Officer" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div class="space-y-2 text-center sm:text-left">
                         <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Chief Operating Officer</span>
-                        <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">Ananya Sharma</h3>
+                        <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">Anjali Pal</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
                             Directing daily HR operations, client delivery frameworks, executive recruitment teams, and candidate onboarding processes.
                         </p>
                     </div>
                 </div>
 
-                <!-- 4. HEAD OF COMPLIANCE & PAYROLL VIKRAM MEHTA -->
+                <!-- 4. HEAD OF COMPLIANCE & PAYROLL MAYA PAL -->
                 <div class="rounded-3xl glass-card p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 group">
                     <div class="w-32 h-32 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-2xl">
-                        <img src="/images/compliance_head.jpg" alt="Vikram Mehta - Head of Compliance & Payroll" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+                        <img src="/images/compliance_head.jpg" alt="Maya Pal - Finance & Accounts Head" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
                     </div>
                     <div class="space-y-2 text-center sm:text-left">
-                        <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Head of Compliance &amp; Payroll</span>
-                        <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">Vikram Mehta</h3>
+                        <span class="text-[11px] font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Finance &amp; Accounts Head</span>
+                        <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">Maya Pal</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
-                            Managing monthly payroll calculations, HRMS software integration, statutory audit readiness, and corporate policy formulation.
+                            Managing accounts, payroll, taxation, audits, budgeting, cash flow, compliance, financial controls, and corporate policy formulation.
                         </p>
                     </div>
                 </div>
