@@ -26,8 +26,8 @@
                                                         A
                                                     </td>
                                                     <td style="padding-left: 14px;">
-                                                        <div style="color: #ffffff; font-weight: 800; font-size: 18px; tracking-tight: -0.5px;">ANSHIVYA GROUP</div>
-                                                        <div style="color: #f59e0b; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px;">Corporate HR Solutions &amp; Talent</div>
+                                                        <div style="color: #ffffff; font-weight: 800; font-size: 18px; tracking-tight: -0.5px;">Anshivya</div>
+                                                        <div style="color: #f59e0b; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px;">Global HR Solution's</div>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -48,7 +48,7 @@
                                 Someone wants to contact you regarding <span style="color: #d97706;">{{ $enquiry->service_required }}</span>.
                             </h1>
                             <p style="margin-top: 10px; color: #64748b; font-size: 14px; line-height: 1.6;">
-                                A new enquiry has been submitted on the Anshivya Group corporate website. Here are the contact details and requirement summary:
+                                A new enquiry has been submitted on the Anshivya Global HR Solution's corporate website. Here are the contact details and requirement summary:
                             </p>
                         </td>
                     </tr>

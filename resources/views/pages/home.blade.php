@@ -193,7 +193,7 @@
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Find opportunities built around your potential.</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-sm mb-8 leading-relaxed">Explore career opportunities and connect with relevant roles across Automobile, Real Estate, Construction, Infrastructure, Media, and Manufacturing sectors.</p>
                     </div>
-                    <a href="{{ route('contact') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
+                    <a href="mailto:hr@anshivya.com" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
                         Mail Us Your Resume &rarr;
                     </a>
                 </div>
@@ -251,14 +251,14 @@
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
 
-                <a href="{{ route('services.payroll') }}" class="p-8 rounded-3xl glass-card block">
+                <a href="{{ route('services.hr-consulting') }}" class="p-8 rounded-3xl glass-card block">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">02</div>
                     <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">HR Consulting</h3>
                     <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Strategic HR solutions for efficient and compliant business growth.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
 
-                <a href="{{ route('services.compliance') }}" class="p-8 rounded-3xl glass-card block">
+                <a href="{{ route('services.employee-relations') }}" class="p-8 rounded-3xl glass-card block">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">03</div>
                     <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Employee Relations</h3>
                     <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Building positive workplace relationships through effective communication and resolution.</p>

@@ -19,6 +19,61 @@
         </div>
     </section>
 
+    <!-- WHO WE ARE SECTION -->
+    <section class="py-24 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="max-w-3xl space-y-3">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase tracking-widest">
+                    Who We Are
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    The Story Behind Our Passion For Smarter Hiring Solutions.
+                </h2>
+                <p class="text-xl font-bold accent-text-gradient pt-1">
+                    Building Futures, Beyond Boundaries
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-8 rounded-3xl glass-card border border-slate-200/80 dark:border-slate-800/80 space-y-4 hover:border-amber-500/30 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg">
+                        01
+                    </div>
+                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        At Anshivya Global HR Solutions, we believe meaningful growth begins with the right people, the right processes, and a clear vision for the future.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card border border-slate-200/80 dark:border-slate-800/80 space-y-4 hover:border-amber-500/30 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg">
+                        02
+                    </div>
+                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        Headquartered in Ahmedabad, Gujarat, Anshivya Group is a growing business group focused on delivering reliable, efficient, and future-ready solutions to organizations across diverse industries.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card border border-slate-200/80 dark:border-slate-800/80 space-y-4 hover:border-amber-500/30 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg">
+                        03
+                    </div>
+                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        Our approach goes beyond simply providing services. We work as an extension of our clients’ teams—understanding their challenges, simplifying complex processes, reducing operational burden, and creating solutions that support sustainable business growth.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card border border-slate-200/80 dark:border-slate-800/80 space-y-4 hover:border-amber-500/30 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg">
+                        04
+                    </div>
+                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                        Backed by industry experience, professional expertise, and a technology-driven mindset, we serve businesses ranging from startups and SMEs to established organizations across manufacturing, engineering, construction, IT, pharmaceuticals, healthcare, education, renewable energy, real estate, and other sectors.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- VISION & MISSION -->
     <section class="py-24 bg-slate-50 dark:bg-slate-900/40 border-b border-slate-200 dark:border-slate-800 transition-colors">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
