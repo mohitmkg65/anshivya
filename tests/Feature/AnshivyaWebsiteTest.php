@@ -21,6 +21,7 @@ test('public blade pages load successfully', function () {
     $this->get('/services/background-verification')->assertStatus(200);
     $this->get('/services/staffing-solutions')->assertStatus(200);
     $this->get('/services/employee-relations')->assertStatus(200);
+    $this->get('/services/hr-policies')->assertStatus(200);
     $this->get('/services/compliance')->assertStatus(200);
     $this->get('/industries')->assertStatus(200);
     $this->get('/jobs')->assertStatus(200);

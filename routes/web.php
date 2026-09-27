@@ -34,6 +34,7 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/background-verification', [PageController::class, 'backgroundVerification'])->name('background-verification');
     Route::get('/staffing-solutions', [PageController::class, 'staffingSolutions'])->name('staffing-solutions');
     Route::get('/employee-relations', [PageController::class, 'employeeRelations'])->name('employee-relations');
+    Route::get('/hr-policies', [PageController::class, 'hrPolicies'])->name('hr-policies');
     Route::get('/compliance', [PageController::class, 'compliance'])->name('compliance');
 });
 
@@ -80,20 +81,20 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::delete('/enquiries/{id}', [EnquiryAdminController::class, 'destroy'])->name('enquiries.destroy');
 
         // Job Postings CRUD
-        // Route::get('/jobs', [JobAdminController::class, 'index'])->name('jobs.index');
-        // Route::get('/jobs/create', [JobAdminController::class, 'create'])->name('jobs.create');
-        // Route::post('/jobs', [JobAdminController::class, 'store'])->name('jobs.store');
-        // Route::get('/jobs/{id}/edit', [JobAdminController::class, 'edit'])->name('jobs.edit');
-        // Route::put('/jobs/{id}', [JobAdminController::class, 'update'])->name('jobs.update');
-        // Route::patch('/jobs/{id}/toggle', [JobAdminController::class, 'togglePublish'])->name('jobs.toggle');
-        // Route::delete('/jobs/{id}', [JobAdminController::class, 'destroy'])->name('jobs.destroy');
+        Route::get('/jobs', [JobAdminController::class, 'index'])->name('jobs.index');
+        Route::get('/jobs/create', [JobAdminController::class, 'create'])->name('jobs.create');
+        Route::post('/jobs', [JobAdminController::class, 'store'])->name('jobs.store');
+        Route::get('/jobs/{id}/edit', [JobAdminController::class, 'edit'])->name('jobs.edit');
+        Route::put('/jobs/{id}', [JobAdminController::class, 'update'])->name('jobs.update');
+        Route::patch('/jobs/{id}/toggle', [JobAdminController::class, 'togglePublish'])->name('jobs.toggle');
+        Route::delete('/jobs/{id}', [JobAdminController::class, 'destroy'])->name('jobs.destroy');
 
         // Candidate Applications
-        // Route::get('/applications', [ApplicationAdminController::class, 'index'])->name('applications.index');
-        // Route::get('/applications/{id}', [ApplicationAdminController::class, 'show'])->name('applications.show');
-        // Route::patch('/applications/{id}/status', [ApplicationAdminController::class, 'updateStatus'])->name('applications.status');
-        // Route::get('/applications/{id}/download', [ApplicationAdminController::class, 'downloadResume'])->name('applications.download');
-        // Route::delete('/applications/{id}', [ApplicationAdminController::class, 'destroy'])->name('applications.destroy');
+        Route::get('/applications', [ApplicationAdminController::class, 'index'])->name('applications.index');
+        Route::get('/applications/{id}', [ApplicationAdminController::class, 'show'])->name('applications.show');
+        Route::patch('/applications/{id}/status', [ApplicationAdminController::class, 'updateStatus'])->name('applications.status');
+        Route::get('/applications/{id}/download', [ApplicationAdminController::class, 'downloadResume'])->name('applications.download');
+        Route::delete('/applications/{id}', [ApplicationAdminController::class, 'destroy'])->name('applications.destroy');
         // Site Info Settings
         Route::get('/site-info', [SiteInfoAdminController::class, 'edit'])->name('site-info.edit');
         Route::post('/site-info', [SiteInfoAdminController::class, 'update'])->name('site-info.update');

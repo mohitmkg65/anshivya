@@ -62,6 +62,11 @@ class PageController extends Controller
         return view('services.employee-relations');
     }
 
+    public function hrPolicies(): View
+    {
+        return view('services.hr-policies');
+    }
+
     public function compliance(): View
     {
         return view('services.payroll'); // Fallback map to Payroll & Compliance

@@ -2,7 +2,7 @@
 
 @section('title', 'Corporate HR Services & Workforce Solutions | Anshivya Group')
 
-@section('meta_description', 'Explore Anshivya Group\'s 8 core HR capabilities: HR Consulting, Recruitment, Payroll & Compliance, HRMS, PMS, Background Verification, Staffing Solutions, and Employee Relations.')
+@section('meta_description', 'Explore Anshivya Group\'s 9 core HR capabilities: HR Consulting, Recruitment, Payroll & Compliance, HRMS, PMS, Background Verification, Staffing Solutions, Employee Relation, and HR Policies & SOPs.')
 
 @section('content')
 
@@ -202,7 +202,7 @@
                     </div>
                 </a>
 
-                <!-- CARD 8: EMPLOYEE RELATIONS & HR POLICIES -->
+                <!-- CARD 8: EMPLOYEE RELATION -->
                 <a href="{{ route('services.employee-relations') }}" class="group rounded-3xl glass-card p-8 border border-slate-200/80 dark:border-slate-800/80 hover:border-amber-500/40 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
                     <div class="space-y-4">
                         <div class="flex items-center justify-between">
@@ -214,14 +214,38 @@
                             </span>
                         </div>
                         <h3 class="text-xl font-extrabold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
-                            Employee Relations &amp; HR Policies
+                            Employee Relation
                         </h3>
                         <p class="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
-                            Clear corporate policy handbooks, grievance redressal mechanisms, employee engagement frameworks, and POSH compliance for harmonious workplaces.
+                            Proactive grievance redressal mechanisms, dispute mediation, employee engagement initiatives, and transparent workplace communication frameworks.
                         </p>
                     </div>
                     <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800/80 text-xs font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1">
-                        <span>Explore Employee Relations</span>
+                        <span>Explore Employee Relation</span>
+                        <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                    </div>
+                </a>
+
+                <!-- CARD 9: HR POLICIES & SOPS -->
+                <a href="{{ route('services.hr-policies') }}" class="group rounded-3xl glass-card p-8 border border-slate-200/80 dark:border-slate-800/80 hover:border-amber-500/40 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-black text-lg group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
+                                09
+                            </div>
+                            <span class="text-slate-400 dark:text-slate-500 group-hover:text-amber-500 group-hover:translate-x-1 transition-all">
+                                &rarr;
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                            HR Policies &amp; SOPs
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
+                            Custom employee handbooks, Standard Operating Procedures (SOPs), POSH compliance frameworks, and corporate governance documentation.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-200 dark:border-slate-800/80 text-xs font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1">
+                        <span>Explore HR Policies &amp; SOPs</span>
                         <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
                     </div>
                 </a>

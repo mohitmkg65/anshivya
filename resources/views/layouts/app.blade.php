@@ -222,15 +222,16 @@
 
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Services</h4>
-                    <ul class="space-y-2.5 text-xs">
+                    <ul class="space-y-2 text-xs">
                         <li><a href="{{ route('services.hr-consulting') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HR Consulting</a></li>
                         <li><a href="{{ route('services.recruitment') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Recruitment &amp; Talent Acquisition</a></li>
                         <li><a href="{{ route('services.payroll') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Payroll Management &amp; Compliance</a></li>
-                        {{-- <li><a href="{{ route('services.hrms-technology') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HRMS &amp; HR Technology Solutions</a></li>
-                        <li><a href="{{ route('services.performance-management') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Performance Management (PMS)</a></li> --}}
+                        <li><a href="{{ route('services.hrms-technology') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HRMS &amp; HR Technology Solutions</a></li>
+                        <li><a href="{{ route('services.performance-management') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Performance Management (PMS)</a></li>
                         <li><a href="{{ route('services.background-verification') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Background Verification (BGV)</a></li>
                         <li><a href="{{ route('services.staffing-solutions') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Manpower &amp; Staffing Solutions</a></li>
-                        <li><a href="{{ route('services.employee-relations') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Employee Relations &amp; HR Policies</a></li>
+                        <li><a href="{{ route('services.employee-relations') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Employee Relation</a></li>
+                        <li><a href="{{ route('services.hr-policies') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HR Policies &amp; SOPs</a></li>
                     </ul>
                 </div>
 

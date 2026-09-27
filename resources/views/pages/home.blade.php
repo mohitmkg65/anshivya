@@ -244,7 +244,7 @@
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">HR Solutions Designed Around Your Business.</h2>
                 </div>
                 <a href="{{ route('services') }}" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase tracking-wider hover:bg-amber-500 hover:text-white transition-all shrink-0">
-                    View All 8 Services &rarr;
+                    View All 9 Services &rarr;
                 </a>
             </div>
 
