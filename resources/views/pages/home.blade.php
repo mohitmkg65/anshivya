@@ -301,6 +301,22 @@
                 <div class="text-lg font-bold text-slate-900 dark:text-white mb-1">Manufacturing</div>
                 <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Plant Managers &amp; Technicians</div>
             </div>
+            <div class="w-72 shrink-0 rounded-2xl glass-card p-6">
+                <div class="text-lg font-bold text-slate-900 dark:text-white mb-1">KPO and BPO</div>
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Process &amp; Analytics Talent</div>
+            </div>
+            <div class="w-72 shrink-0 rounded-2xl glass-card p-6">
+                <div class="text-lg font-bold text-slate-900 dark:text-white mb-1">Pharma</div>
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold">R&amp;D &amp; QA/QC Specialists</div>
+            </div>
+            <div class="w-72 shrink-0 rounded-2xl glass-card p-6">
+                <div class="text-lg font-bold text-slate-900 dark:text-white mb-1">Healthcare</div>
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Medical &amp; Hospital Leaders</div>
+            </div>
+            <div class="w-72 shrink-0 rounded-2xl glass-card p-6">
+                <div class="text-lg font-bold text-slate-900 dark:text-white mb-1">Renewable Energy</div>
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Solar &amp; Wind Engineers</div>
+            </div>
         </div>
     </section>
 

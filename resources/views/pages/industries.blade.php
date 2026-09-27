@@ -63,6 +63,30 @@
                     <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Manufacturing / Industrial</h3>
                     <p class="text-slate-600 dark:text-slate-400 text-xs">Comprehensive technical staffing, plant managers, safety officers, and industrial workforce management.</p>
                 </div>
+
+                <div class="p-8 rounded-3xl glass-card space-y-2">
+                    <div class="text-xs font-mono font-bold text-amber-600 dark:text-amber-400 mb-2">BPO/KPO</div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">KPO and BPO</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs">Specialized talent acquisition for process outsourcing, knowledge services, customer support, technical helpdesks, and analytics teams.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card space-y-2">
+                    <div class="text-xs font-mono font-bold text-amber-600 dark:text-amber-400 mb-2">PHARMA</div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Pharma</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs">R&amp;D scientists, QA/QC specialists, regulatory affairs officers, formulation experts, and pharmaceutical sales leadership.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card space-y-2">
+                    <div class="text-xs font-mono font-bold text-amber-600 dark:text-amber-400 mb-2">HEALTH</div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Healthcare</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs">Medical professionals, hospital administration staff, clinical research coordinators, allied healthcare personnel, and medical technology talent.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl glass-card space-y-2">
+                    <div class="text-xs font-mono font-bold text-amber-600 dark:text-amber-400 mb-2">RENEW</div>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Renewable Energy</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs">Solar and wind energy engineers, project managers, sustainability consultants, grid integration specialists, and clean-tech executives.</p>
+                </div>
             </div>
         </div>
     </section>

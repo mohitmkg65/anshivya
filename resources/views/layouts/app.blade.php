@@ -281,7 +281,7 @@
                 <div class="flex items-center gap-6">
                     <a href="{{ route('privacy') }}" class="hover:text-slate-900 dark:hover:text-slate-300">Privacy Policy</a>
                     <a href="{{ route('terms') }}" class="hover:text-slate-900 dark:hover:text-slate-300">Terms &amp; Conditions</a>
-                    <a href="{{ route('admin.login') }}" class="text-amber-600 dark:text-amber-400 hover:underline">Admin Login</a>
+                    {{-- <a href="{{ route('admin.login') }}" class="text-amber-600 dark:text-amber-400 hover:underline">Admin Login</a> --}}
                 </div>
             </div>
         </div>
