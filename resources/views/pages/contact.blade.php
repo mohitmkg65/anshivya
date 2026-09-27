@@ -60,11 +60,16 @@
                             <div>
                                 <label class="block text-xs font-bold uppercase text-slate-700 dark:text-slate-300 mb-2">Service Required</label>
                                 <select name="service_required" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:border-amber-500">
-                                    <option value="Recruitment">Recruitment &amp; Talent Acquisition</option>
-                                    <option value="Payroll Management">Payroll Management</option>
-                                    <option value="Compliance Solutions">Compliance Solutions</option>
-                                    <option value="HR Consulting">Strategic HR Consulting</option>
-                                    <option value="Employee Relations">Employee Relations &amp; Engagement</option>
+                                    <option value="">Select Service</option>
+                                    <option value="HR Consulting">HR Consulting</option>
+                                    <option value="Recruitment & Talent Acquisition">Recruitment &amp; Talent Acquisition</option>
+                                    <option value="Payroll Management & Compliance">Payroll Management &amp; Compliance</option>
+                                    <option value="HRMS & HR Technology Solutions">HRMS &amp; HR Technology Solutions</option>
+                                    <option value="Performance Management (PMS)">Performance Management (PMS)</option>
+                                    <option value="Background Verification (BGV)">Background Verification (BGV)</option>
+                                    <option value="Manpower & Staffing Solutions">Manpower &amp; Staffing Solutions</option>
+                                    <option value="Employee Relations">Employee Relations</option>
+                                    <option value="HR Policies & SOPs">HR Policies &amp; SOPs</option>
                                     <option value="Other">Other Operational Needs</option>
                                 </select>
                             </div>
@@ -77,7 +82,7 @@
 
                         <div>
                             <label class="block text-xs font-bold uppercase text-slate-700 dark:text-slate-300 mb-2">Message &amp; Requirement Details *</label>
-                            <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:border-amber-500" required>{{ old('message') }}</textarea>
+                            <textarea name="message" rows="10" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:border-amber-500" required>{{ old('message') }}</textarea>
                             @error('message') <span class="text-red-500 dark:text-red-400 text-[11px] mt-1">{{ $message }}</span> @enderror
                         </div>
 

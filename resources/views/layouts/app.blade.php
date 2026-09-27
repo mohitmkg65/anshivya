@@ -179,7 +179,7 @@
                             Ready To Scale Your Team?
                         </div>
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Have a hiring or HR requirement?</h3>
-                        <p class="text-slate-300 text-sm">Let's discuss how Anshivya can support your business with customized recruitment, payroll, and compliance execution.</p>
+                        <p class="text-slate-300 text-sm">Let's discuss how Anshivya Global HR Solution's can support your business with customized recruitment, payroll, and compliance execution.</p>
                     </div>
                     <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-xl shadow-orange-950/40">
                         Start a Conversation

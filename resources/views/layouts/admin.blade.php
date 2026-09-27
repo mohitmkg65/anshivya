@@ -51,8 +51,9 @@
                     A
                 </div>
                 <div>
-                    <div class="font-extrabold text-slate-900 dark:text-white text-sm tracking-tight">ANSHIVYA ADMIN</div>
-                    <div class="text-[10px] text-amber-600 dark:text-amber-400 font-mono">Control Panel v1.0</div>
+                    <div class="font-extrabold text-slate-900 dark:text-white text-sm tracking-tight">ANSHIVYA</div>
+                    {{-- <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400">Global HR Solution's</span> --}}
+                    <div class="text-[10px] text-amber-600 dark:text-amber-400 font-mono font-extrabold">Global HR Solution's</div>
                 </div>
             </div>
 
