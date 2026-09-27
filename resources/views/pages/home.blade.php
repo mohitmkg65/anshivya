@@ -39,7 +39,7 @@
                             Talk to Anshivya
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </a>
-                        <a href="{{ route('services.recruitment') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl text-xs font-bold uppercase tracking-wider bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-200 hover:text-slate-950 dark:hover:text-white border border-slate-300 dark:border-slate-700/80 hover:bg-slate-100 dark:hover:bg-slate-800 backdrop-blur-md transition-all shadow-md">
+                        <a href="{{ route('services') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl text-xs font-bold uppercase tracking-wider bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-200 hover:text-slate-950 dark:hover:text-white border border-slate-300 dark:border-slate-700/80 hover:bg-slate-100 dark:hover:bg-slate-800 backdrop-blur-md transition-all shadow-md">
                             Explore Our Services
                         </a>
                     </div>
@@ -79,11 +79,11 @@
                                 <span class="text-amber-600 dark:text-amber-400 font-bold">98% Match</span>
                             </div>
                             <div class="p-3.5 rounded-xl bg-slate-100/90 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
-                                <span class="font-semibold text-slate-800 dark:text-slate-200">Payroll Management &amp; HRMS</span>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Payroll Management &amp; Compliance</span>
                                 <span class="text-emerald-600 dark:text-emerald-400 font-bold">100% Accurate</span>
                             </div>
                             <div class="p-3.5 rounded-xl bg-slate-100/90 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
-                                <span class="font-semibold text-slate-800 dark:text-slate-200">Statutory Compliance</span>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">HRMS &amp; HR Technology</span>
                                 <span class="text-blue-600 dark:text-blue-400 font-bold">Compliant</span>
                             </div>
                         </div>
@@ -129,13 +129,13 @@
                         const step = (now) => {
                             const progress = Math.min((now - startTime) / duration, 1);
                             const ease = 1 - Math.pow(1 - progress, 3);
-                            this.count1 = Math.min(500, Math.floor(1 + (6 - 1) * ease));
-                            this.count2 = Math.min(500, Math.floor(1 + (10 - 1) * ease));
+                            this.count1 = Math.min(5, Math.floor(1 + (5 - 1) * ease));
+                            this.count2 = Math.min(4, Math.floor(1 + (4 - 1) * ease));
                             if (progress < 1) {
                                 requestAnimationFrame(step);
                             } else {
-                                this.count1 = 6;
-                                this.count2 = 10;
+                                this.count1 = 5;
+                                this.count2 = 4;
                             }
                         };
                         requestAnimationFrame(step);
@@ -238,30 +238,35 @@
     <!-- SECTION 6 — SERVICES OVERVIEW -->
     <section class="py-24 bg-slate-50 dark:bg-slate-950 transition-colors">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mb-16 space-y-2">
-                <div class="text-xs font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">OUR SERVICES</div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">HR Solutions Designed Around Your Business.</h2>
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div class="max-w-3xl space-y-2">
+                    <div class="text-xs font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">OUR SERVICES</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">HR Solutions Designed Around Your Business.</h2>
+                </div>
+                <a href="{{ route('services') }}" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase tracking-wider hover:bg-amber-500 hover:text-white transition-all shrink-0">
+                    View All 8 Services &rarr;
+                </a>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <a href="{{ route('services.recruitment') }}" class="p-8 rounded-3xl glass-card block">
+                <a href="{{ route('services.recruitment') }}" class="p-8 rounded-3xl glass-card block group">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">01</div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Recruitment Services</h3>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">Recruitment &amp; Talent Acquisition</h3>
                     <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">End-to-end recruitment and talent acquisition tailored to diverse sector requirements.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
 
-                <a href="{{ route('services.hr-consulting') }}" class="p-8 rounded-3xl glass-card block">
+                <a href="{{ route('services.hr-consulting') }}" class="p-8 rounded-3xl glass-card block group">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">02</div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">HR Consulting</h3>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">HR Consulting</h3>
                     <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Strategic HR solutions for efficient and compliant business growth.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
 
-                <a href="{{ route('services.employee-relations') }}" class="p-8 rounded-3xl glass-card block">
+                <a href="{{ route('services.payroll') }}" class="p-8 rounded-3xl glass-card block group">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">03</div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Employee Relations</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Building positive workplace relationships through effective communication and resolution.</p>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">Payroll Management &amp; Compliance</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Accurate monthly compensation processing, tax management, and PF/ESIC filings.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
             </div>

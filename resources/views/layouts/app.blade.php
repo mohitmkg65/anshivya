@@ -77,66 +77,7 @@
                     <a href="{{ route('home') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('home') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Home</a>
                     <a href="{{ route('about') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('about') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">About</a>
 
-                    <!-- SERVICES DROPDOWN -->
-                    <div class="relative" @mouseenter="servicesOpen = true" @mouseleave="servicesOpen = false">
-                        <button type="button" @click="servicesOpen = !servicesOpen" class="px-3.5 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1.5 {{ request()->is('services*') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">
-                            Services
-                            <svg class="w-4 h-4 transition-transform duration-200" :class="servicesOpen ? 'rotate-180 text-amber-500' : 'text-slate-400'" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                        </button>
-
-                        <div x-show="servicesOpen" x-transition.origin.top class="absolute top-full left-0 w-80 pt-2">
-                            <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-2.5 shadow-2xl shadow-slate-950/20 backdrop-blur-xl">
-                                <div class="text-[11px] font-bold tracking-widest uppercase text-slate-400 dark:text-slate-400 px-3 py-1.5 border-b border-slate-100 dark:border-slate-800/60 mb-1">
-                                    Core Capabilities
-                                </div>
-                                <a href="{{ route('services.recruitment') }}" class="group flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors">
-                                    <div class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-300">Recruitment Services</div>
-                                        <div class="text-[11px] text-slate-500 dark:text-slate-400">Talent acquisition & executive sourcing</div>
-                                    </div>
-                                </a>
-                                <a href="{{ route('services.payroll') }}" class="group flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors">
-                                    <div class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-300">Payroll Management</div>
-                                        <div class="text-[11px] text-slate-500 dark:text-slate-400">Organized monthly payroll & reporting</div>
-                                    </div>
-                                </a>
-                                <a href="{{ route('services.compliance') }}" class="group flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors">
-                                    <div class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-300">Compliance Solutions</div>
-                                        <div class="text-[11px] text-slate-500 dark:text-slate-400">HR compliance & policy formulation</div>
-                                    </div>
-                                </a>
-                                <a href="{{ route('services.hr-consulting') }}" class="group flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors">
-                                    <div class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-300">HR Consulting</div>
-                                        <div class="text-[11px] text-slate-500 dark:text-slate-400">Strategic advisory & people strategies</div>
-                                    </div>
-                                </a>
-                                <a href="{{ route('services.employee-relations') }}" class="group flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors">
-                                    <div class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-                                    </div>
-                                    <div>
-                                        <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-300">Employee Relations</div>
-                                        <div class="text-[11px] text-slate-500 dark:text-slate-400">Grievance redressal & engagement</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ route('services') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->is('services*') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Services</a>
 
                     <a href="{{ route('industries') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('our-reach') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Our Reach</a>
                     {{-- <a href="{{ route('jobs') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('jobs') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Job Openings</a> --}}
@@ -191,11 +132,7 @@
             <nav class="flex flex-col gap-3">
                 <a href="{{ route('home') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Home</a>
                 <a href="{{ route('about') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">About Us</a>
-                <a href="{{ route('services.recruitment') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Recruitment Services</a>
-                <a href="{{ route('services.payroll') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Payroll Management</a>
-                <a href="{{ route('services.compliance') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Compliance Solutions</a>
-                <a href="{{ route('services.hr-consulting') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">HR Consulting</a>
-                <a href="{{ route('services.employee-relations') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Employee Relations</a>
+                <a href="{{ route('services') }}" class="text-lg font-semibold py-2 {{ request()->is('services*') ? 'text-amber-600 dark:text-amber-400 font-semibold' : 'text-slate-900 dark:text-white' }}">Services</a>
                 <a href="{{ route('industries') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Our Reach</a>
                 {{-- <a href="{{ route('jobs') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Job Openings</a> --}}
                 <a href="{{ route('contact') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Contact Us</a>
@@ -254,9 +191,18 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-200 dark:border-slate-900">
                 <div class="lg:col-span-2 space-y-4">
-                    <a href="{{ route('home') }}" class="inline-flex items-center gap-3">
-                        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white font-extrabold text-lg">A</div>
-                        <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight">ANSHIVYA <span class="text-xs text-amber-600 dark:text-amber-400 font-semibold px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/20">GROUP</span></span>
+                    <a href="{{ route('home') }}" class="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
+                        <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
+                            <span class="font-extrabold text-white text-xl tracking-tighter">A</span>
+                            <div class="absolute inset-0 rounded-xl border border-white/20"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">
+                                ANSHIVYA 
+                                {{-- <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">Global HR Solution's</span> --}}
+                            </span>
+                            <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution's</span>
+                        </div>
                     </a>
                     <p class="text-slate-600 dark:text-slate-400 text-sm">Empowering People. Accelerating Business. Building Futures.</p>
                     <p class="text-slate-500 dark:text-slate-400 text-xs">Partner with Anshivya Global HR Solution's to access a global network of professionals who drive results.</p>
@@ -267,6 +213,7 @@
                     <ul class="space-y-2.5 text-sm">
                         <li><a href="{{ route('home') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Home</a></li>
                         <li><a href="{{ route('about') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">About Us</a></li>
+                        <li><a href="{{ route('services') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Services</a></li>
                         <li><a href="{{ route('industries') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Our Reach</a></li>
                         {{-- <li><a href="{{ route('jobs') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Job Openings</a></li> --}}
                         <li><a href="{{ route('contact') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Contact Us</a></li>
@@ -275,12 +222,15 @@
 
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Services</h4>
-                    <ul class="space-y-2.5 text-sm">
-                        <li><a href="{{ route('services.recruitment') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Recruitment Services</a></li>
-                        <li><a href="{{ route('services.payroll') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Payroll Management</a></li>
-                        <li><a href="{{ route('services.compliance') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Compliance Solutions</a></li>
+                    <ul class="space-y-2.5 text-xs">
                         <li><a href="{{ route('services.hr-consulting') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HR Consulting</a></li>
-                        <li><a href="{{ route('services.employee-relations') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Employee Relations</a></li>
+                        <li><a href="{{ route('services.recruitment') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Recruitment &amp; Talent Acquisition</a></li>
+                        <li><a href="{{ route('services.payroll') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Payroll Management &amp; Compliance</a></li>
+                        {{-- <li><a href="{{ route('services.hrms-technology') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">HRMS &amp; HR Technology Solutions</a></li>
+                        <li><a href="{{ route('services.performance-management') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Performance Management (PMS)</a></li> --}}
+                        <li><a href="{{ route('services.background-verification') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Background Verification (BGV)</a></li>
+                        <li><a href="{{ route('services.staffing-solutions') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Manpower &amp; Staffing Solutions</a></li>
+                        <li><a href="{{ route('services.employee-relations') }}" class="text-slate-600 dark:text-slate-400 hover:text-amber-500">Employee Relations &amp; HR Policies</a></li>
                     </ul>
                 </div>
 
@@ -288,7 +238,7 @@
                     <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Contact Us</h4>
                     <ul class="space-y-3 text-xs text-slate-600 dark:text-slate-400">
                         <li class="flex items-start gap-2">
-                            <span class="font-bold text-slate-800 dark:text-slate-200">Phone:</span>
+                            {{-- <span class="font-bold text-slate-800 dark:text-slate-200">Phone:</span> --}}
                             <span>
                                 <a href="tel:{{ str_replace(' ', '', $siteInfo->mobile_1 ?? '+918112825288') }}" class="hover:text-amber-500 transition-colors">
                                     {{ $siteInfo->mobile_1 ?? '+91 81128 25288' }}
@@ -302,7 +252,7 @@
                             </span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="font-bold text-slate-800 dark:text-slate-200">Email:</span>
+                            {{-- <span class="font-bold text-slate-800 dark:text-slate-200">Email:</span> --}}
                             <span>
                                 <a href="mailto:{{ $siteInfo->email_1 ?? 'info@anshivya.com' }}" class="hover:text-amber-500 transition-colors">
                                     {{ $siteInfo->email_1 ?? 'info@anshivya.com' }}
@@ -316,7 +266,7 @@
                             </span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="font-bold text-slate-800 dark:text-slate-200 shrink-0">Location:</span>
+                            {{-- <span class="font-bold text-slate-800 dark:text-slate-200 shrink-0">Location:</span> --}}
                             <span class="leading-relaxed">
                                 {{ $siteInfo->full_address ?? 'Ahmedabad, Gujarat, India' }}
                             </span>

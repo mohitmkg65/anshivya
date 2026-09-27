@@ -17,6 +17,16 @@ class PageController extends Controller
         return view('pages.about');
     }
 
+    public function services(): View
+    {
+        return view('services.index');
+    }
+
+    public function hrConsulting(): View
+    {
+        return view('services.hr-consulting');
+    }
+
     public function recruitment(): View
     {
         return view('services.recruitment');
@@ -27,19 +37,34 @@ class PageController extends Controller
         return view('services.payroll');
     }
 
-    public function compliance(): View
+    public function hrmsTechnology(): View
     {
-        return view('services.compliance');
+        return view('services.hrms-technology');
     }
 
-    public function hrConsulting(): View
+    public function performanceManagement(): View
     {
-        return view('services.hr-consulting');
+        return view('services.performance-management');
+    }
+
+    public function backgroundVerification(): View
+    {
+        return view('services.background-verification');
+    }
+
+    public function staffingSolutions(): View
+    {
+        return view('services.staffing-solutions');
     }
 
     public function employeeRelations(): View
     {
         return view('services.employee-relations');
+    }
+
+    public function compliance(): View
+    {
+        return view('services.payroll'); // Fallback map to Payroll & Compliance
     }
 
     public function industries(): View

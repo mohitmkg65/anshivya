@@ -22,13 +22,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 
-// Services
+// Services Overview & Detail Pages
+Route::get('/services', [PageController::class, 'services'])->name('services');
+
 Route::prefix('services')->name('services.')->group(function () {
+    Route::get('/hr-consulting', [PageController::class, 'hrConsulting'])->name('hr-consulting');
     Route::get('/recruitment', [PageController::class, 'recruitment'])->name('recruitment');
     Route::get('/payroll', [PageController::class, 'payroll'])->name('payroll');
-    Route::get('/compliance', [PageController::class, 'compliance'])->name('compliance');
-    Route::get('/hr-consulting', [PageController::class, 'hrConsulting'])->name('hr-consulting');
+    Route::get('/hrms-technology', [PageController::class, 'hrmsTechnology'])->name('hrms-technology');
+    Route::get('/performance-management', [PageController::class, 'performanceManagement'])->name('performance-management');
+    Route::get('/background-verification', [PageController::class, 'backgroundVerification'])->name('background-verification');
+    Route::get('/staffing-solutions', [PageController::class, 'staffingSolutions'])->name('staffing-solutions');
     Route::get('/employee-relations', [PageController::class, 'employeeRelations'])->name('employee-relations');
+    Route::get('/compliance', [PageController::class, 'compliance'])->name('compliance');
 });
 
 // Industries
