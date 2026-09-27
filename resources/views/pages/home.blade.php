@@ -31,7 +31,7 @@
                     </h1>
 
                     <p class="text-slate-700 dark:text-slate-200 text-lg sm:text-xl font-medium dark:font-normal leading-relaxed max-w-2xl">
-                        Partner with Anshivya Group to access a global network of professionals who drive results.
+                        Partner with Anshivya Global HR Solution's to access a global network of professionals who drive results.
                     </p>
 
                     <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="flex items-center gap-2">
                             <svg class="w-4 h-4 text-amber-500 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Ahmedabad &amp; Global</span>
+                            <span>Pan India &amp; Global</span>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                     <div class="rounded-3xl glass-card p-8 shadow-2xl space-y-4 relative overflow-hidden">
                         <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-2">
                             <div>
-                                <div class="text-xs font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">Anshivya HR Solutions</div>
+                                <div class="text-xs font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">Anshivya Global HR Solution's</div>
                                 <div class="text-[11px] text-slate-500 dark:text-slate-400">Strategic &amp; Operational Execution</div>
                             </div>
                             <span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
@@ -129,13 +129,13 @@
                         const step = (now) => {
                             const progress = Math.min((now - startTime) / duration, 1);
                             const ease = 1 - Math.pow(1 - progress, 3);
-                            this.count1 = Math.min(500, Math.floor(1 + (5 - 1) * ease));
-                            this.count2 = Math.min(400, Math.floor(1 + (400 - 1) * ease));
+                            this.count1 = Math.min(500, Math.floor(1 + (6 - 1) * ease));
+                            this.count2 = Math.min(500, Math.floor(1 + (10 - 1) * ease));
                             if (progress < 1) {
                                 requestAnimationFrame(step);
                             } else {
-                                this.count1 = 5;
-                                this.count2 = 400;
+                                this.count1 = 6;
+                                this.count2 = 10;
                             }
                         };
                         requestAnimationFrame(step);
@@ -193,9 +193,9 @@
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Find opportunities built around your potential.</h3>
                         <p class="text-slate-600 dark:text-slate-300 text-sm mb-8 leading-relaxed">Explore career opportunities and connect with relevant roles across Automobile, Real Estate, Construction, Infrastructure, Media, and Manufacturing sectors.</p>
                     </div>
-                    {{-- <a href="{{ route('jobs') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
-                        View Job Openings &rarr;
-                    </a> --}}
+                    <a href="{{ route('contact') }}" class="w-full py-4 text-center rounded-2xl text-xs font-bold uppercase tracking-wider bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-900 dark:border dark:border-emerald-500/40 dark:text-emerald-400 dark:hover:text-white transition-all shadow-md">
+                        Mail Us Your Resume &rarr;
+                    </a>
                 </div>
             </div>
         </div>
@@ -253,15 +253,15 @@
 
                 <a href="{{ route('services.payroll') }}" class="p-8 rounded-3xl glass-card block">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">02</div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Payroll Management</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Organized payroll processes, transparent reporting, coordination, and enhanced visibility.</p>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">HR Consulting</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Strategic HR solutions for efficient and compliant business growth.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
 
                 <a href="{{ route('services.compliance') }}" class="p-8 rounded-3xl glass-card block">
                     <div class="text-xs font-mono font-bold text-slate-400 dark:text-slate-500 mb-2">03</div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Compliance Solutions</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Structured HR compliance, statutory process alignment, and policy formulation support.</p>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Employee Relations</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed">Building positive workplace relationships through effective communication and resolution.</p>
                     <div class="mt-4 text-xs font-bold text-amber-600 dark:text-amber-400">Explore Service &rarr;</div>
                 </a>
             </div>

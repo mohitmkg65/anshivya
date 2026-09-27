@@ -65,9 +65,10 @@
                     </div>
                     <div class="flex flex-col">
                         <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">
-                            ANSHIVYA <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">GROUP</span>
+                            ANSHIVYA 
+                            {{-- <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">Global HR Solution's</span> --}}
                         </span>
-                        <span class="text-[10px] uppercase font-semibold tracking-widest text-slate-500 dark:text-slate-400">HR Solutions & Talent</span>
+                        <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution's</span>
                     </div>
                 </a>
 
@@ -137,7 +138,7 @@
                         </div>
                     </div>
 
-                    <a href="{{ route('industries') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('industries') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Industries</a>
+                    <a href="{{ route('industries') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('our-reach') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Our Reach</a>
                     {{-- <a href="{{ route('jobs') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('jobs') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Job Openings</a> --}}
                     <a href="{{ route('contact') }}" class="px-3.5 py-2 rounded-lg text-sm font-medium {{ request()->routeIs('contact') ? 'text-amber-600 dark:text-amber-400 bg-amber-500/10 font-semibold' : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-900/60' }}">Contact Us</a>
                 </nav>
@@ -195,7 +196,7 @@
                 <a href="{{ route('services.compliance') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Compliance Solutions</a>
                 <a href="{{ route('services.hr-consulting') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">HR Consulting</a>
                 <a href="{{ route('services.employee-relations') }}" class="text-sm py-1.5 text-slate-600 dark:text-slate-300 pl-4">Employee Relations</a>
-                <a href="{{ route('industries') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Industries</a>
+                <a href="{{ route('industries') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Our Reach</a>
                 {{-- <a href="{{ route('jobs') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Job Openings</a> --}}
                 <a href="{{ route('contact') }}" class="text-lg font-semibold py-2 text-slate-900 dark:text-white">Contact Us</a>
             </nav>
@@ -258,7 +259,7 @@
                         <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight">ANSHIVYA <span class="text-xs text-amber-600 dark:text-amber-400 font-semibold px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/20">GROUP</span></span>
                     </a>
                     <p class="text-slate-600 dark:text-slate-400 text-sm">Empowering People. Accelerating Business. Building Futures.</p>
-                    <p class="text-slate-500 dark:text-slate-400 text-xs">Partner with Anshivya Group to access a global network of professionals who drive results.</p>
+                    <p class="text-slate-500 dark:text-slate-400 text-xs">Partner with Anshivya Global HR Solution's to access a global network of professionals who drive results.</p>
                 </div>
 
                 <div>
@@ -266,7 +267,7 @@
                     <ul class="space-y-2.5 text-sm">
                         <li><a href="{{ route('home') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Home</a></li>
                         <li><a href="{{ route('about') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">About Us</a></li>
-                        <li><a href="{{ route('industries') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Industries</a></li>
+                        <li><a href="{{ route('industries') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Our Reach</a></li>
                         {{-- <li><a href="{{ route('jobs') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Job Openings</a></li> --}}
                         <li><a href="{{ route('contact') }}" class="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">Contact Us</a></li>
                     </ul>
