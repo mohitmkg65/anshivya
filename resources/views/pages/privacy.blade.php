@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Privacy Policy | Anshivya Group')
+@section('title', 'Privacy Policy | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Learn how Anshivya Group collects, protects, uses, and safeguards candidate and corporate client data across our HR services.')
+@section('meta_description', 'Learn how Anshivya Global HR Solution\'s collects, protects, uses, and safeguards candidate and corporate client data across our HR services.')
 
 @section('content')
 

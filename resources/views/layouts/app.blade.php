@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Anshivya Group | HR Solutions & Recruitment Partner')</title>
-    <meta name="description" content="@yield('meta_description', 'Anshivya Group provides corporate HR solutions, recruitment, payroll management, compliance solutions, and strategic HR consulting.')">
+    <title>@yield('title', 'Anshivya Global HR Solution\'s | HR Solutions & Recruitment Partner')</title>
+    <meta name="description" content="@yield('meta_description', 'Anshivya Global HR Solution\'s provides corporate HR solutions, recruitment, payroll management, compliance solutions, and strategic HR consulting.')">
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 

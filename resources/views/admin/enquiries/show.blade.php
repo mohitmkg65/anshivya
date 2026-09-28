@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Enquiry Details — ' . $enquiry->full_name)
+@section('title', 'Admin | Enquiry Details — ' . $enquiry->full_name)
 
 @section('content')
 <div class="max-w-4xl space-y-6">

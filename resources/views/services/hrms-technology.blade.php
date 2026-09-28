@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'HRMS & HR Technology Solutions | Anshivya Group')
+@section('title', 'HRMS & HR Technology Solutions | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Automate HR workflows, attendance tracking, leave management, and employee self-service with Anshivya Group\'s HRMS & HR Technology Solutions.')
+@section('meta_description', 'Automate HR workflows, attendance tracking, leave management, and employee self-service with Anshivya Global HR Solution\'s HRMS & HR Technology Solutions.')
 
 @section('content')
     <section class="pt-36 pb-20 bg-slate-100 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-900 transition-colors">

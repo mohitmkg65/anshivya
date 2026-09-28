@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Employee Relation Services | Anshivya Group')
+@section('title', 'Employee Relation Services | Anshivya Global HR Solution\'s')
 
 @section('meta_description', 'Foster positive workplace harmony, grievance redressal, employee engagement, and conflict mediation with Anshivya Group\'s Employee Relation solutions.')
 

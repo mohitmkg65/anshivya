@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Manpower & Staffing Solutions | Anshivya Group')
+@section('title', 'Manpower & Staffing Solutions | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Flexible contractual staffing, volume manpower deployment, and temporary staffing solutions with Anshivya Group.')
+@section('meta_description', 'Flexible contractual staffing, volume manpower deployment, and temporary staffing solutions with Anshivya Global HR Solution\'s.')
 
 @section('content')
     <section class="pt-36 pb-20 bg-slate-100 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-900 transition-colors">

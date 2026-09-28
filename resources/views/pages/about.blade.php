@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us & Executive Leadership | Anshivya Group')
+@section('title', 'About Us & Executive Leadership | Anshivya Global HR Solution\'s')
 
 @section('content')
 

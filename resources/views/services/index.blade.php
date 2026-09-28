@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Corporate HR Services & Workforce Solutions | Anshivya Group')
+@section('title', 'Corporate HR Services & Workforce Solutions | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Explore Anshivya Group\'s 9 core HR capabilities: HR Consulting, Recruitment, Payroll & Compliance, HRMS, PMS, Background Verification, Staffing Solutions, Employee Relation, and HR Policies & SOPs.')
+@section('meta_description', 'Explore Anshivya Global HR Solution\'s 9 core HR capabilities: HR Consulting, Recruitment, Payroll & Compliance, HRMS, PMS, Background Verification, Staffing Solutions, Employee Relation, and HR Policies & SOPs.')
 
 @section('content')
 

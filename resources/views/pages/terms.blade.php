@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Terms & Conditions | Anshivya Group')
+@section('title', 'Terms & Conditions | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Read the official Terms and Conditions governing the use of Anshivya Group\'s website, recruitment services, payroll solutions, and corporate HR offerings.')
+@section('meta_description', 'Read the official Terms and Conditions governing the use of Anshivya Global HR Solution\'s website, recruitment services, payroll solutions, and corporate HR offerings.')
 
 @section('content')
 

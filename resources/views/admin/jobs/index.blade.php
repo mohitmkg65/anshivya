@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Job Postings Management (CRUD)')
+@section('title', 'Admin | Job Postings Management (CRUD)')
 
 @section('content')
 <div class="space-y-6">

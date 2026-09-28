@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '404 — Page Not Found | Anshivya Group')
+@section('title', '404 — Page Not Found | Anshivya Global HR Solution\'s)')
 
 @section('content')
     <section class="pt-40 pb-32 bg-slate-950 flex items-center justify-center min-h-[70vh]">

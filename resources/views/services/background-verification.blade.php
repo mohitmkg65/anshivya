@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Background Verification (BGV) Services | Anshivya Group')
+@section('title', 'Background Verification (BGV) Services | Anshivya Global HR Solution\'s')
 
 @section('meta_description', 'Mitigate hiring risks with Anshivya Group\'s pre-employment background verification services covering education, employment, criminal records, and credentials.')
 

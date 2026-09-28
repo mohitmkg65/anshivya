@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Create New Job Posting')
+@section('title', 'Admin | Create New Job Posting')
 
 @section('content')
 <div class="max-w-4xl space-y-6">

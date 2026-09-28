@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Job Openings & Career Opportunities | Anshivya Group')
+@section('title', 'Job Openings & Career Opportunities | Anshivya Global HR Solution\'s')
 
 @section('content')
     <section class="pt-36 pb-16 bg-slate-100 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-900 transition-colors">

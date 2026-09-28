@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Site Contact Info & Map Settings')
+@section('title', 'Admin | Site Contact Info & Map Settings')
 
 @section('content')
 <div class="max-w-5xl mx-auto space-y-8">

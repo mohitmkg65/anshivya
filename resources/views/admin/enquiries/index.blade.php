@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Contact Enquiries Management')
+@section('title', 'Admin | Contact Enquiries')
 
 @section('content')
 <div class="space-y-6">

@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Application — ' . $application->candidate_name)
+@section('title', 'Admin | Application — ' . $application->candidate_name)
 
 @section('content')
 <div class="max-w-4xl space-y-6">

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Performance Management System (PMS) | Anshivya Group')
+@section('title', 'Performance Management System (PMS) | Anshivya Global HR Solution\'s')
 
-@section('meta_description', 'Design transparent KPI & KRA appraisal systems, performance reviews, and employee growth plans with Anshivya Group\'s PMS solutions.')
+@section('meta_description', 'Design transparent KPI & KRA appraisal systems, performance reviews, and employee growth plans with Anshivya Global HR Solution\'s PMS solutions.')
 
 @section('content')
     <section class="pt-36 pb-20 bg-slate-100 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-900 transition-colors">
