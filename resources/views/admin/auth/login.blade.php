@@ -47,12 +47,12 @@
 
             <div>
                 <label class="block text-xs font-bold uppercase text-slate-700 dark:text-slate-300 mb-1.5">Email Address</label>
-                <input type="email" name="email" value="{{ old('email', 'admin@anshivya.com') }}" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-amber-500" required />
+                <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-amber-500" required />
             </div>
 
             <div>
                 <label class="block text-xs font-bold uppercase text-slate-700 dark:text-slate-300 mb-1.5">Password</label>
-                <input type="password" name="password" value="password" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-amber-500" required />
+                <input type="password" name="password" placeholder="Enter your password" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-amber-500" required />
             </div>
 
             <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
@@ -67,9 +67,9 @@
             </button>
         </form>
 
-        <div class="text-center pt-2 text-[11px] text-slate-500 dark:text-slate-400">
+        {{-- <div class="text-center pt-2 text-[11px] text-slate-500 dark:text-slate-400">
             Default credentials: <code class="text-amber-600 dark:text-amber-400">admin@anshivya.com</code> / <code class="text-amber-600 dark:text-amber-400">password</code>
-        </div>
+        </div> --}}
     </div>
 
 </body>
