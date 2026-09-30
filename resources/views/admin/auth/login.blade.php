@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login | Anshivya Global HR Solution's</title>
+    <title>Admin Login | Anshivya Global HR Solution</title>
+    <link rel="icon" type="image" href="/images/favicon.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,13 +23,18 @@
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans min-h-screen flex items-center justify-center p-4 transition-colors">
 
-    <div class="max-w-md w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-2xl space-y-6 transition-colors">
-        <div class="text-center space-y-2">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white font-black text-2xl mx-auto shadow-lg shadow-orange-950/20">
-                A
+    <div class="max-w-md w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 pt-4 shadow-2xl space-y-6 transition-colors">
+        <div class="mb-12">
+            <div class="flex justify-center items-center gap-1">
+                <div class="relative w-16 h-16 rounded-xl bg-transparent flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <img src="/images/favicon.png" alt="Logo">
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">ANSHIVYA</span>
+                    <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution</span>
+                </div>
             </div>
-            <h1 class="text-2xl font-extrabold text-slate-900 dark:text-white">Anshivya Admin Login</h1>
-            <p class="text-slate-500 dark:text-slate-400 text-xs">Enter credentials to access the corporate management panel.</p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs text-center">Enter credentials to access the corporate management panel.</p>
         </div>
 
         @if(session('success'))

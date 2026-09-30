@@ -8,7 +8,8 @@
     <title>@yield('title', 'Anshivya Global HR Solution\'s | HR Solutions & Recruitment Partner')</title>
     <meta name="description" content="@yield('meta_description', 'Anshivya Global HR Solution\'s provides corporate HR solutions, recruitment, payroll management, compliance solutions, and strategic HR consulting.')">
 
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image" href="/images/favicon.png" />
+
 
     <!-- Google Fonts: Plus Jakarta Sans & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,17 +59,17 @@
             <div class="flex items-center justify-between">
                 
                 <!-- LOGO -->
-                <a href="{{ route('home') }}" class="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
-                    <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
+                <a href="{{ route('home') }}" class="group flex items-center gap-1 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
+                    {{-- <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
                         <span class="font-extrabold text-white text-xl tracking-tighter">A</span>
                         <div class="absolute inset-0 rounded-xl border border-white/20"></div>
+                    </div> --}}
+                    <div class="w-16 h-16 rounded-xl bg-trasparent flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                       <img src="/images/favicon.png" alt="Logo">
                     </div>
                     <div class="flex flex-col">
-                        <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">
-                            ANSHIVYA 
-                            {{-- <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">Global HR Solution's</span> --}}
-                        </span>
-                        <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution's</span>
+                        <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">ANSHIVYA </span>
+                        <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution</span>
                     </div>
                 </a>
 
@@ -179,7 +180,7 @@
                             Ready To Scale Your Team?
                         </div>
                         <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Have a hiring or HR requirement?</h3>
-                        <p class="text-slate-300 text-sm">Let's discuss how Anshivya Global HR Solution's can support your business with customized recruitment, payroll, and compliance execution.</p>
+                        <p class="text-slate-300 text-sm">Let's discuss how Anshivya Global HR Solution can support your business with customized recruitment, payroll, and compliance execution.</p>
                     </div>
                     <a href="{{ route('contact') }}" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-xl shadow-orange-950/40">
                         Start a Conversation
@@ -191,21 +192,21 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-200 dark:border-slate-900">
                 <div class="lg:col-span-2 space-y-4">
-                    <a href="{{ route('home') }}" class="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
-                        <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
+                    <a href="{{ route('home') }}" class="group flex items-center gap-1 focus:outline-none focus:ring-2 focus:ring-amber-500 rounded-lg p-1">
+                        {{-- <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-amber-700 flex items-center justify-center shadow-lg shadow-orange-950/30 group-hover:scale-105 transition-transform duration-300">
                             <span class="font-extrabold text-white text-xl tracking-tighter">A</span>
                             <div class="absolute inset-0 rounded-xl border border-white/20"></div>
+                        </div> --}}
+                        <div class="relative w-16 h-16 rounded-xl bg-transparent flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                            <img src="/images/favicon.png" alt="Logo">
                         </div>
                         <div class="flex flex-col">
-                            <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">
-                                ANSHIVYA 
-                                {{-- <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">Global HR Solution's</span> --}}
-                            </span>
-                            <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution's</span>
+                            <span class="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">ANSHIVYA</span>
+                            <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400"> Global HR Solution</span>
                         </div>
                     </a>
                     <p class="text-slate-600 dark:text-slate-400 text-sm">Empowering People. Accelerating Business. Building Futures.</p>
-                    <p class="text-slate-500 dark:text-slate-400 text-xs">Partner with Anshivya Global HR Solution's to access a global network of professionals who drive results.</p>
+                    <p class="text-slate-500 dark:text-slate-400 text-xs">Partner with Anshivya Global HR Solution to access a global network of professionals who drive results.</p>
                 </div>
 
                 <div>

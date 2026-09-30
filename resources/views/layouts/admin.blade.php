@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Admin Dashboard') | Anshivya Global HR Solution's</title>
+    <title>@yield('title', 'Admin Dashboard') | Anshivya Global HR Solution</title>
+    <link rel="icon" type="image" href="/images/favicon.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,14 +47,13 @@
     <aside class="w-64 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 flex flex-col justify-between shrink-0 transition-colors">
         <div>
             <!-- LOGO HEADER -->
-            <div class="p-6 border-b border-slate-200 dark:border-slate-800 flex items-center gap-3">
-                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center font-extrabold text-slate-950">
-                    A
+            <div class="h-21 p-4 border-b border-slate-200 dark:border-slate-800 flex items-center gap-3">
+                <div class="relative w-12 h-12 rounded-xl bg-transparent flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <img src="/images/favicon.png" alt="Logo">
                 </div>
                 <div>
                     <div class="font-extrabold text-slate-900 dark:text-white text-sm tracking-tight">ANSHIVYA</div>
-                    {{-- <span class="text-[10px] uppercase font-black tracking-widest text-amber-600 dark:text-slate-400">Global HR Solution's</span> --}}
-                    <div class="text-[10px] text-amber-600 dark:text-amber-400 font-mono font-extrabold">Global HR Solution's</div>
+                    <div class="text-[10px] text-amber-600 dark:text-amber-400 font-mono font-extrabold">GLOBAL HR SOLUTION</div>
                 </div>
             </div>
 

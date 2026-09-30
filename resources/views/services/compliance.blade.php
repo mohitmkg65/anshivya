@@ -10,7 +10,7 @@
             </div>
             <h1 class="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">Protect Your Business with Structured HR Compliance.</h1>
             <p class="text-slate-600 dark:text-slate-300 text-lg max-w-2xl">
-                Anshivya Global HR Solution's assists enterprises in building sound HR policy frameworks, establishing clear operational guidelines, and keeping organizational standards aligned with statutory expectations.
+                Anshivya Global HR Solution assists enterprises in building sound HR policy frameworks, establishing clear operational guidelines, and keeping organizational standards aligned with statutory expectations.
             </p>
         </div>
     </section>

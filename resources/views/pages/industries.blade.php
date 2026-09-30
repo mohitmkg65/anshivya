@@ -8,8 +8,8 @@
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase tracking-widest">
                 SECTOR EXPERTISE
             </div>
-            <h1 class="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">Anshivya's Versatile Industry Reach.</h1>
-            <p class="text-slate-600 dark:text-slate-300 text-lg max-w-2xl">Anshivya works across multifaceted industries, supporting diverse hiring and talent requirements with a sector-focused approach.</p>
+            <h1 class="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">Anshivya Global HR Solution Versatile Industry Reach.</h1>
+            <p class="text-slate-600 dark:text-slate-300 text-lg max-w-2xl">Anshivya Global HR Solution works across multifaceted industries, supporting diverse hiring and talent requirements with a sector-focused approach.</p>
         </div>
     </section>
 

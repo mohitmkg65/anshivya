@@ -10,7 +10,7 @@
             </div>
             <h1 class="text-4xl sm:text-5xl font-black text-slate-900 dark:text-white">Find the Talent That Accelerates Your Business.</h1>
             <p class="text-slate-600 dark:text-slate-300 text-lg max-w-2xl">
-                Anshivya Global HR Solution's supports growing businesses with specialized recruitment and talent acquisition across diverse industrial and corporate sectors.
+                Anshivya Global HR Solution supports growing businesses with specialized recruitment and talent acquisition across diverse industrial and corporate sectors.
             </p>
         </div>
     </section>

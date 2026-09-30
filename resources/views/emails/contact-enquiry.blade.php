@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Contact Enquiry — Anshivya Global HR Solution's</title>
+    <title>New Contact Enquiry — Anshivya Global HR Solution</title>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f1f5f9; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;">
     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f1f5f9; padding: 40px 10px;">
@@ -27,7 +27,7 @@
                                                     </td>
                                                     <td style="padding-left: 14px;">
                                                         <div style="color: #ffffff; font-weight: 800; font-size: 18px; tracking-tight: -0.5px;">Anshivya</div>
-                                                        <div style="color: #f59e0b; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px;">Global HR Solution's</div>
+                                                        <div style="color: #f59e0b; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px;">Global HR Solution</div>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -48,7 +48,7 @@
                                 Someone wants to contact you regarding <span style="color: #d97706;">{{ $enquiry->service_required }}</span>.
                             </h1>
                             <p style="margin-top: 10px; color: #64748b; font-size: 14px; line-height: 1.6;">
-                                A new enquiry has been submitted on the Anshivya Global HR Solution's corporate website. Here are the contact details and requirement summary:
+                                A new enquiry has been submitted on the Anshivya Global HR Solution corporate website. Here are the contact details and requirement summary:
                             </p>
                         </td>
                     </tr>

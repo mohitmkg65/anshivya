@@ -31,7 +31,7 @@
                     </h1>
 
                     <p class="text-slate-700 dark:text-slate-200 text-lg sm:text-xl font-medium dark:font-normal leading-relaxed max-w-2xl">
-                        Partner with Anshivya Global HR Solution's to access a global network of professionals who drive results.
+                        Partner with Anshivya Global HR Solution to access a global network of professionals who drive results.
                     </p>
 
                     <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -65,7 +65,7 @@
                     <div class="rounded-3xl glass-card p-8 shadow-2xl space-y-4 relative overflow-hidden">
                         <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-2">
                             <div>
-                                <div class="text-xs font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">Anshivya Global HR Solution's</div>
+                                <div class="text-xs font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">Anshivya Global HR Solution</div>
                                 <div class="text-[11px] text-slate-500 dark:text-slate-400">Strategic &amp; Operational Execution</div>
                             </div>
                             <span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
