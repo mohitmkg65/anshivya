@@ -111,7 +111,7 @@
                 <!-- CHAIRMAN: SHIV MUNI PAL -->
                 <div class="group relative rounded-3xl overflow-hidden bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 shadow-xl hover:shadow-2xl hover:border-amber-500/50 transition-all duration-500 flex flex-col">
                     <!-- Image Container - Edge-to-Edge Full Width on all screen sizes -->
-                    <div class="relative w-full h-80 sm:h-96 overflow-hidden bg-slate-950">
+                    <div class="relative w-full h-96 sm:h-96 overflow-hidden bg-slate-950">
                         <img src="/images/shiv-muni-pal.png" alt="Shiv Muni Pal - Chairman" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90 group-hover:opacity-80 transition-opacity"></div>
                         
@@ -152,7 +152,7 @@
                 <!-- FOUNDER & MANAGING DIRECTOR: SHIVAM PAL -->
                 <div class="group relative rounded-3xl overflow-hidden bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 shadow-xl hover:shadow-2xl hover:border-amber-500/50 transition-all duration-500 flex flex-col">
                     <!-- Image Container - Edge-to-Edge Full Width on all screen sizes -->
-                    <div class="relative w-full h-80 sm:h-96 overflow-hidden bg-slate-950">
+                    <div class="relative w-full h-96 sm:h-96 overflow-hidden bg-slate-950">
                         <img src="/images/shivam-pal.jpeg" alt="Shivam Pal - Founder & Managing Director" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90 group-hover:opacity-80 transition-opacity"></div>
                         
