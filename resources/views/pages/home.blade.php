@@ -359,7 +359,7 @@
                     </div>
 
                     <!-- Details Box below photo -->
-                    <div class="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
                         <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
                             Providing strategic direction, corporate governance, and long-term vision to Anshivya Global HR Solution expansion across diverse industrial sectors.
                         </p>
@@ -402,7 +402,7 @@
                     </div>
 
                     <!-- Details Box below photo -->
-                    <div class="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
                         <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
                             Leading Anshivya Group's strategic growth, operational excellence, and workforce practice across recruitment, payroll, and statutory compliance.
                         </p>
@@ -445,7 +445,7 @@
                     </div>
 
                     <!-- Details Box below photo -->
-                    <div class="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-6 bg-slate-50/50 dark:bg-slate-900/60">
                         <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
                             Directing daily HR operations, client delivery frameworks, executive recruitment teams, and candidate onboarding processes.
                         </p>
