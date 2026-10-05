@@ -62,7 +62,7 @@
 
                 <!-- HERO RIGHT FLOATING GLASS CARDS -->
                 <div class="lg:col-span-5 relative">
-                    <div class="rounded-3xl glass-card p-8 shadow-2xl space-y-4 relative overflow-hidden">
+                    <div class="rounded-3xl glass-card p-6 shadow-2xl space-y-4 relative overflow-hidden">
                         <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-2">
                             <div>
                                 <div class="text-xs font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">Anshivya Global HR Solution</div>
@@ -80,17 +80,17 @@
                             </div>
                             <div class="p-3.5 rounded-xl bg-slate-100/90 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
                                 <span class="font-semibold text-slate-800 dark:text-slate-200">Payroll Management &amp; Compliance</span>
-                                <span class="text-emerald-600 dark:text-emerald-400 font-bold">100% Accurate</span>
+                                <span class="text-emerald-600 dark:text-emerald-400 font-bold">100% Accurate & Compliant</span>
                             </div>
                             <div class="p-3.5 rounded-xl bg-slate-100/90 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
                                 <span class="font-semibold text-slate-800 dark:text-slate-200">HRMS &amp; HR Technology</span>
-                                <span class="text-blue-600 dark:text-blue-400 font-bold">Compliant</span>
+                                <span class="text-blue-600 dark:text-blue-400 font-bold">100% Automated</span>
                             </div>
                         </div>
 
                         <div class="pt-4 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between text-xs">
                             <span class="text-slate-500 dark:text-slate-400">Trusted Corporate Group</span>
-                            <span class="text-amber-600 dark:text-amber-400 font-bold">5+ Years Experience</span>
+                            <span class="text-amber-600 dark:text-amber-400 font-bold">6+ Years Experience</span>
                         </div>
                     </div>
                 </div>
