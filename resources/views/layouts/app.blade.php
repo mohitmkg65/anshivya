@@ -139,7 +139,7 @@
         @php
             $waMobile = preg_replace('/[^0-9]/', '', $siteInfo->mobile_1 ?? '918112825288');
         @endphp
-        <a href="https://wa.me/{{ $waMobile }}?text=Hello%20Anshivya%20Group,%20I%20would%20like%20to%20discuss%20our%20HR/Recruitment%20needs." 
+        <a href="https://wa.me/{{ $waMobile }}?text=Hello%20Anshivya%20Global%20HR%20Solution,%20I%20would%20like%20to%20discuss%20our%20HR/Recruitment%20needs." 
            target="_blank" 
            rel="noopener noreferrer" 
            class="w-13 h-13 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 flex items-center justify-center shadow-2xl shadow-emerald-950/40 transition-all hover:scale-110 active:scale-95">
